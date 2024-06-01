@@ -9,7 +9,9 @@ const useStyles = makeStyles(theme => ({
     width: "550px",
     [theme.breakpoints.down("xs")]: {
       width: "300px"
-    }
+    },
+    transform: "scaleX(-1)",
+    borderRadius: "10%"
   },
   gridContainer: {
     justifyContent: "center",
@@ -21,10 +23,6 @@ const useStyles = makeStyles(theme => ({
     padding: "10px",
     border: "2px solid black",
     margin: "10px"
-  },
-  video: {
-    transform: "scaleX(-1)",
-    borderRadius: "10%"
   },
   blackScreen: {
     backgroundColor: "black",
