@@ -2,9 +2,9 @@ import React from "react";
 import { makeStyles } from "@mui/material/styles";
 import Alert from "@mui/lab/Alert";
 
-import VideoPlayer from "src/components/video-call/video-player";
-import Sidebar from "src/components/sidebar";
-import Notifications from "src/components/notification";
+import VideoPlayer from "./video-player";
+import Sidebar from "../sidebar/index";
+import Notifications from "../notification/index";
 
 const useStyles = makeStyles(() => ({
   wrapper: {

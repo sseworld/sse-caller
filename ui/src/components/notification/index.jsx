@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 
 import { Button, Snackbar, Typography } from "@mui/material"
 import Alert from "@mui/lab/Alert";
-import { SocketContext } from "src/socket-context";
+import { SocketContext } from "../../socket-context";
 
 const Notifications = () => {
   const { answerCall, call, callAccepted } = useContext(SocketContext);

@@ -8,7 +8,7 @@ import {
   VideoCall
 } from "@mui/icons-material";
 
-import { SocketContext } from "src/socket-context";
+import { SocketContext } from "../../socket-context";
 
 const useStyles = makeStyles(theme => ({
   root: {

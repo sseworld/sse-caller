@@ -1,8 +1,8 @@
 import React from "react"
-import VideoCall from "./components/video-call"
-import LoginScreen from "./components/login-screen"
-import { ContextProvider } from "src/socket-context"
-import Navigation from "src/components/navigation"
+import VideoCall from "./components/video-call/index"
+import LoginScreen from "./components/login-screen/index"
+import { ContextProvider } from "./socket-context"
+import Navigation from "./components/navigation/index"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 function App() {

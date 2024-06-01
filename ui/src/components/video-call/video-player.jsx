@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Grid, Typography, makeStyles } from "@mui/material";
 import Box from "@mui/material/Box";
 
-import { SocketContext } from "src/socket-context";
+import { SocketContext } from "../../socket-context";
 
 const useStyles = makeStyles(theme => ({
   video: {
