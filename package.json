@@ -1,0 +1,26 @@
+{
+  "name": "sse-caller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sseworld/sse-caller.git"
+  },
+  "author": "SSE World",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sseworld/sse-caller/issues"
+  },
+  "homepage": "https://github.com/sseworld/sse-caller#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2",
+    "serve": "^14.2.3",
+    "socket.io": "^4.7.5"
+  }
+}
