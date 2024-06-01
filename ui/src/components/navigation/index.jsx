@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { AppBar, Toolbar, Typography, CssBaseline, useScrollTrigger, makeStyles } from "@mui/material"
+import { AppBar, Toolbar, Typography, CssBaseline, useScrollTrigger } from "@mui/material"
+import { makeStyles } from "@mui/styles"
 import DuoIcon from "@mui/icons-material/Duo";
 import GitHubIcon from "@mui/icons-material/GitHub";
 

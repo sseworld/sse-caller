@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
-import { Grid, Typography, makeStyles } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
+import { makeStyles } from "@mui/styles"
 import Box from "@mui/material/Box";
 
 import { SocketContext } from "../../socket-context";

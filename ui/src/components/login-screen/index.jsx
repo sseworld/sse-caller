@@ -1,5 +1,6 @@
 import React from "react"
-import { Container, Button, makeStyles, Grid, Box, Typography } from "@mui/material"
+import { Container, Button, Grid, Box, Typography } from "@mui/material"
+import { makeStyles } from "@mui/styles"
 import Img from "../../assets/video-call.jpg"
 
 const useStyles = makeStyles(theme => ({
