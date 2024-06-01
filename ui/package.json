@@ -11,8 +11,21 @@
     "b1": "vite build && echo '/* /index.html  200' | cat >build/_redirects "
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.19",
+    "add": "^2.0.6",
+    "install": "^0.13.0",
+    "npm": "^10.8.1",
+    "peerjs": "^1.5.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.7.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
